@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "apple banana cherry apple cherry" | tr ' ' '\n' | sort | uniq -u
+sort | uniq -u
